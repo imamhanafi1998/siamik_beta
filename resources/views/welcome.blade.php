@@ -13,77 +13,188 @@
             border-right: none;
             border-color: black;
         }
+        body {
+            font-family: 'Lato';
+            background-color: #dfe6e9;
+        }
     </style>
 
     <title>SIAMIK_beta</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+<body >
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light text-dark p-1 bg-white">
         <div class="container">
-          <a class="navbar-brand text-white" href="#">SIAMIK_beta</a>
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a href="/" class="nav-item btn btn-success align-self-center">BERANDA</a>
-                <a href="/" class="btn btn-success align-self-center">TOPSCORE</a>
-                <a href="/" class="btn btn-success align-self-center">LOGIN</a>
-                <a href="/" class="btn btn-success align-self-center">DOWNLOAD</a>
-                <a href="/" class="btn btn-success align-self-center">MANUAL</a>
-          </div>
-      </div>
-  </div>
-</nav>
-
-<div class="container mt-6" style="margin-top: 100px">
-    <div class="row">
-        <div class="col-0 col-lg-3">
-            <div class="d-none d-lg-block">
-                <div class="list-group" style="position: fixed;">
-
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang" style="border-top: none;">TRACKING IJAZAH</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">PENGUMUMAN</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">KELAS MKDU</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">KATALOG ONLINE</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">INFORMASI SKRIPSI</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">PENDAFTARAN WISUDA</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">DAFTAR PESERTA MT. KULIAH</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">DAFTAR PESERTA MT. KULIAH MKDU</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">DUMP</a>
-                </div>
+            <a class="navbar-brand text-white" href="#">
+                <img src="/img/logo.jpg" width="130px">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Topscore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success font-weight-bold" href="#">Login</a>
+                    </li>
+                </ul>
             </div>
-            <div class="d-lg-none">
-                <div class="list-group">
-
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang" style="border-top: none;">TRACKING IJAZAH</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">PENGUMUMAN</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">KELAS MKDU</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">KATALOG ONLINE</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">INFORMASI SKRIPSI</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">PENDAFTARAN WISUDA</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">DAFTAR PESERTA MT. KULIAH</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">DAFTAR PESERTA MT. KULIAH MKDU</a>
-                    <a href="/" class="list-group-item list-group-item-action list-group-item-white ilang">DUMP</a>
-                </div>
-                <br><br>
-            </div>
-
         </div>
-        <div class="col-12 col-lg-8 offset-lg-1">
-            <h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
-            <h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
-            <h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
-            <h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
-            <h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
-            <h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+    </nav>
+
+    <div class="container mt-6" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+			<div class="container">
+                <div class="row p-3 border-bottom bg-white rounded-top mt-2">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/calendar.png" width="20px" class="mr-2">
+                            <span class="text-secondary">Kalender Akademik</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 rounded-bottom bg-white">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/file.png" width="20px" class="mr-2">
+                            <span class="text-secondary">Tabel Pembayaran</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 border-bottom bg-white rounded-top mt-3">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/research.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Tracking Ijazah</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 border-bottom bg-white">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/class.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Kelas MKDU</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 border-bottom bg-white">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/catalog.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Katalong Online</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 border-bottom bg-white">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/notebook.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Informasi Skripsi</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 border-bottom bg-white">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/mortarboard.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Pendaftaran Wisuda</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 border-bottom bg-white">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/boss.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Daftar Mahasiswa</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3 bg-white rounded-bottom">
+                    <div class="col">
+                        <a href="#">
+                            <img src="/img/network.png" width="15px" class="mr-2">
+                            <span class="text-secondary">Daftar Mahasiswa MKDU</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			</div>
+            <div class="col-12 col-lg-9 mb-5">
+                <div class="container">
+                    <div class="row mt-2">
+                        <div class="col">
+                            <div class="row p-3 bg-light rounded-top bg-info">
+                                <div class="col">
+                                    <h4>Perwakilan Wisudawan Periode III TA.2018/2019</h4>
+                                </div>
+                            </div>
+                            <div class="row p-3 bg-light rounded-bottom bg-white">
+                                <div class="col">
+                                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</span>
+                                </div>
+                            </div>
+                            <div class="row p-4 bg-light rounded-bottom bg-white">
+                                <div class="col">
+                                    <span class="align-center-bottom float-left text-muted"><small>04 Juli 2019</small></span>
+                                    <a href="#" class="btn btn-info rounded float-right">Baca Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="row p-3 bg-light rounded-top bg-info">
+                                <div class="col">
+                                    <h4>Daftar Mahasiswa Belum Publish KHS Ganjil 18/19</h4>
+                                </div>
+                            </div>
+                            <div class="row p-3 bg-light rounded-bottom bg-white">
+                                <div class="col">
+                                    <span>Diumumkan daftar nama-nama mahasiswa yang belum melakukan publish KHS Semeter Ganjil TA.2018/2019, agar segera mempublish paling lambat 24 Mei 2019 Jam 24:00 Wib. </span>
+                                </div>
+                            </div>
+                            <div class="row p-4 bg-light rounded-bottom bg-white">
+                                <div class="col">
+                                    <span class="align-center-bottom float-left text-muted"><small>23 Mei 2019</small></span>
+                                    <a href="#" class="btn btn-info rounded float-right">Baca Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
+    <div class="container-fluid p-3 bg-white">
+        <div class="container">
+            <div class="row p-3 mr-auto ml-auto">
+                <div class="col-auto container">
+                    <div class="row">
+                        <div class="col">
+                            <span><small> &copy; 2019 Biro Akademik UPN Veteran JATIM. All Right Reserved.</small></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
