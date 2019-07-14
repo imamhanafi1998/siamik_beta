@@ -14,31 +14,20 @@
             border-color: black;
         }
         body {
-<<<<<<< HEAD
             font-family: 'Lato';
             background-color: #dfe6e9;
         }
-=======
-        font-family: 'Lato';
-        background-color: #dfe6e9;
-      }
->>>>>>> 9aae371a32676383b06cadb2d9a8ca2ca020b2b5
     </style>
 
     <title>SIAMIK_beta</title>
 
     <!-- Fonts -->
     <link rel="stylesheet"
-<<<<<<< HEAD
     href="https://fonts.googleapis.com/css?family=Lato">
-=======
-          href="https://fonts.googleapis.com/css?family=Lato">
->>>>>>> 9aae371a32676383b06cadb2d9a8ca2ca020b2b5
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body >
 
-<<<<<<< HEAD
     <nav class="navbar fixed-top navbar-expand-lg navbar-light text-dark p-1 bg-white">
         <div class="container">
             <a class="navbar-brand text-white" href="#">
@@ -144,138 +133,8 @@
                             <span class="text-secondary">Daftar Mahasiswa MKDU</span>
                         </a>
                     </div>
-=======
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light border-bottom border-light text-dark p-1 bg-white">
-        <div class="container">
-          <a class="navbar-brand text-white" href="#">
-            <img src="/img/logo.jpg" width="130px">
-          </a>
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Topscore</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Manual</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-success font-weight-bold" href="#">Login</a>
-            </li>
-          </ul>
-      </div>
-  </div>
-</nav>
-
-<div class="container mt-6" style="margin-top: 100px;">
-    <div class="row">
-        <div class="col-3 ">
-          <div class="row p-3 border-bottom bg-white rounded-top mt-2">
-            <div class="col">
-              <a href="#">
-                <img src="/img/calendar.png" width="20px" class="mr-2">
-                <span class="text-secondary">Kalender Akademik</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 rounded-bottom bg-white">
-            <div class="col">
-              <a href="#">
-                <img src="/img/file.png" width="20px" class="mr-2">
-                <span class="text-secondary">Tabel Pembayaran</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="row p-3 border-bottom bg-white rounded-top mt-3">
-            <div class="col">
-              <a href="#">
-                <img src="/img/research.png" width="15px" class="mr-2">
-                <span class="text-secondary">Tracking Ijazah</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 border-bottom bg-white">
-            <div class="col">
-              <a href="#">
-                <img src="/img/class.png" width="15px" class="mr-2">
-                <span class="text-secondary">Kelas MKDU</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 border-bottom bg-white">
-            <div class="col">
-              <a href="#">
-                <img src="/img/catalog.png" width="15px" class="mr-2">
-                <span class="text-secondary">Katalong Online</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 border-bottom bg-white">
-            <div class="col">
-              <a href="#">
-                <img src="/img/notebook.png" width="15px" class="mr-2">
-                <span class="text-secondary">Informasi Skripsi</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 border-bottom bg-white">
-            <div class="col">
-              <a href="#">
-                <img src="/img/mortarboard.png" width="15px" class="mr-2">
-                <span class="text-secondary">Pendaftaran Wisuda</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 border-bottom bg-white">
-            <div class="col">
-              <a href="#">
-                <img src="/img/boss.png" width="15px" class="mr-2">
-                <span class="text-secondary">Daftar Mahasiswa</span>
-              </a>
-            </div>
-          </div>
-          <div class="row p-3 bg-white rounded-bottom">
-            <div class="col">
-              <a href="#">
-                <img src="/img/network.png" width="15px" class="mr-2">
-                <span class="text-secondary">Daftar Mahasiswa MKDU</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="container">
-            <div class="row mt-2">
-              <div class="col">
-                <div class="row p-3 bg-light rounded-top bg-info">
-                  <div class="col">
-                    <h4>Perwakilan Wisudawan Periode III TA.2018/2019</h4>
-                  </div>
                 </div>
-                <div class="row p-3 bg-light rounded-bottom bg-white">
-                  <div class="col">
-                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</span>
-                  </div>
-                </div>
-                <div class="row p-4 bg-light rounded-bottom bg-white">
-                  <div class="col">
-                    <span class="align-center-bottom float-left text-muted"><small>04 Juli 2019</small></span>
-                    <a href="#" class="btn btn-info rounded float-right">Baca Selengkapnya</a>
-                  </div>
->>>>>>> 9aae371a32676383b06cadb2d9a8ca2ca020b2b5
-                </div>
-              </div>
             </div>
-<<<<<<< HEAD
 			</div>
             <div class="col-12 col-lg-9 mb-5">
 			<div class="d-lg-none">
@@ -325,33 +184,9 @@
                     </div>
                 </div>
             </div>
-=======
-            <div class="row mt-3">
-              <div class="col">
-                <div class="row p-3 bg-light rounded-top bg-info">
-                  <div class="col">
-                    <h4>Daftar Mahasiswa Belum Publish KHS Ganjil 18/19</h4>
-                  </div>
-                </div>
-                <div class="row p-3 bg-light rounded-bottom bg-white">
-                  <div class="col">
-                    <span>Diumumkan daftar nama-nama mahasiswa yang belum melakukan publish KHS Semeter Ganjil TA.2018/2019, agar segera mempublish paling lambat 24 Mei 2019 Jam 24:00 Wib. </span>
-                  </div>
-                </div>
-                <div class="row p-4 bg-light rounded-bottom bg-white">
-                  <div class="col">
-                    <span class="align-center-bottom float-left text-muted"><small>23 Mei 2019</small></span>
-                    <a href="#" class="btn btn-info rounded float-right">Baca Selengkapnya</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
->>>>>>> 9aae371a32676383b06cadb2d9a8ca2ca020b2b5
         </div>
     </div>
 
-<<<<<<< HEAD
     <div class="container-fluid p-3 bg-white">
         <div class="container">
             <div class="row p-3 mr-auto ml-auto">
@@ -365,20 +200,5 @@
             </div>
         </div>
     </div>
-=======
-<div class="container-fluid p-3 bg-white">
-  <div class="container">
-    <div class="row p-3 mr-auto ml-auto">
-      <div class="col-auto container">
-        <div class="row">
-          <div class="col">
-            <span><small> &copy; 2019 Biro Akademik UPN Veteran JATIM. All Right Reserved.</small></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
->>>>>>> 9aae371a32676383b06cadb2d9a8ca2ca020b2b5
 </body>
 </html>
