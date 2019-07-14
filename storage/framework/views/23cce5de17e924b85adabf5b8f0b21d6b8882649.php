@@ -137,6 +137,10 @@
             </div>
 			</div>
             <div class="col-12 col-lg-9 mb-5">
+			<div class="d-lg-none">
+			<div class="mt-5">
+			</div>
+			</div>
                 <div class="container">
                     <div class="row mt-2">
                         <div class="col">
