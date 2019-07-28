@@ -1,19 +1,17 @@
 @extends('masterapp')
 
 @section('content')
-  <div class="container p-3 bg-info rounded bg-white">
+  <div class="container">
     <div class="row">
       <div class="col">
-        <div class="row">
+        <div class="row p-3 bg-info rounded-top">
+          <div class="col text-white">
+            <h5><b>Download</b></h5>
+          </div>
+        </div>
+        <div class="row bg-white p-3 rounded-bottom">
           <div class="col">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nama File</th>
-                  <th scope="col">Keterangan</th>
-                  <th scope="col">Opsi</th>
-                </tr>
-              </thead>
+            <table class="table table-borderless">
               <tbody>
                 <tr>
                   <td>Kalender Akademik</td>

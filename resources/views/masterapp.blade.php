@@ -50,17 +50,103 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Manual</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-success font-weight-bold" href="#">Login</a>
-            </li>
+            @guest
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="{{ route('login') }}">{{ __('Login') }}</a>
+                </li>
+            @else
+                <li class="nav-item dropdown">
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                      <span class="text-success"> <b> {{ Auth::user()->name }} <span class="caret"></span> </b> </span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item text-info" href="/home">
+                          Dashboard
+                      </a>
+                        <a class="dropdown-item" href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                         document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    </div>
+                </li>
+            @endguest
           </ul>
       </div>
   </div>
 </nav>
 
+
 <div class="container mt-6" style="margin-top: 100px;">
     <div class="row">
-        <div class="col-3 ">
+        <div class="col-3">
+
+          @guest
+
+          @else
+          <div class="row p-3 border-bottom bg-white rounded-top mt-2">
+            <div class="col">
+              <a href="#">
+                <img src="/img/class.png" width="15px" class="mr-2">
+                <span class="text-secondary">PUBLISH KHS ke PDDIKTI</span>
+              </a>
+            </div>
+          </div>
+          <div class="row p-3 border-bottom bg-white">
+            <div class="col">
+              <a href="#">
+                <img src="/img/research.png" width="15px" class="mr-2">
+                <span class="text-secondary">PENDAFTARAN UAS</span>
+              </a>
+            </div>
+          </div>
+          <div class="row p-3 border-bottom bg-white">
+            <div class="col">
+              <a href="#">
+                <img src="/img/catalog.png" width="15px" class="mr-2">
+                <span class="text-secondary">DAFTAR KKN</span>
+              </a>
+            </div>
+          </div>
+          <div class="row p-3 border-bottom bg-white">
+            <div class="col">
+              <a href="#">
+                <img src="/img/mortarboard.png" width="15px" class="mr-2">
+                <span class="text-secondary">ABSENSI KULIAH</span>
+              </a>
+            </div>
+          </div>
+          <div class="row p-3 border-bottom bg-white">
+            <div class="col">
+              <a href="#">
+                <img src="/img/boss.png" width="15px" class="mr-2">
+                <span class="text-secondary">KARTU RENCANA STUDI</span>
+              </a>
+            </div>
+          </div>
+          <div class="row p-3 border-bottom bg-white">
+            <div class="col">
+              <a href="#">
+                <img src="/img/network.png" width="15px" class="mr-2">
+                <span class="text-secondary">KARTU HASIL STUDI</span>
+              </a>
+            </div>
+          </div>
+          <div class="row p-3 border-bottom bg-white">
+            <div class="col">
+              <a href="#">
+                <img src="/img/notebook.png" width="15px" class="mr-2">
+                <span class="text-secondary">TRANSKRIP</span>
+              </a>
+            </div>
+          </div>
+          <br>
+          @endguest
 
           <div class="row p-3 border-bottom bg-white rounded-top mt-2">
             <div class="col">

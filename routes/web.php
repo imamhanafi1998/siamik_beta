@@ -26,3 +26,7 @@ Route::get('login', function () {
 Route::get('register', function () {
     return "YAREG";
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
