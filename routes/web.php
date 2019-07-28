@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/topscore', function () {
+    return view('topscore');
+});
+Route::get('/download', function () {
+    return view('download');
+});
 Route::get('login', function () {
     return "YALOG";
 });
